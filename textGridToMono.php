@@ -33,7 +33,7 @@ function loadTextGrid($content){
 function textGridToMono($intervals){
 	$mono = '';
 	foreach($intervals as $one){
-		$mono .= round($one[0] * 1000000) . ' ' . round($one[1] * 1000000) . ' ' . $one[2] . "\r\n";
+		$mono .= round($one[0] * 10000000) . ' ' . round($one[1] * 10000000) . ' ' . $one[2] . "\r\n";
 	}
 	return $mono;
 }
