@@ -1,3 +1,5 @@
+% please first install sptk in data/bin
+% this script helps to extract samples with STRAIGHT on windows
 samples = dir('data/raw');
 frame_period = 5;
 bin = '.\data\bin\';
